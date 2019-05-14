@@ -26,7 +26,7 @@ sass:
   style:            compressed
 
 # Comments
-disqus_shortname:   glowingEdge
+disqus_shortname:   glowingedge
 
 # Social
 # if you don't have any of social below, comment the line.
@@ -37,7 +37,7 @@ disqus_shortname:   glowingEdge
   #ad-client:
   #ad-slot:
 #bing-verify:
-#email:
+email:              ddukfate213@gmail.com
 #twitter:            username
 #facebook:           username
 github-url:         glowingEdge

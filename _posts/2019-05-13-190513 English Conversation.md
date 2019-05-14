@@ -11,7 +11,7 @@ comments: true
 
 ## Notices
 
-Youtube 라이브 아카데미 <a href="https://www.youtube.com/watch?v=NfZRQ9o2Q4U&list=PLIsIUJcT0HIV-avv8h9pz31_boIaRY1aU&index=21">링크 </a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qey-xlG0HZI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 {: .notice}
 
 ## Script
