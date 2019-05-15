@@ -35,13 +35,13 @@ PyCharm이라는 편리한 IDE가 있음에도 VS Code의 가벼움이나 하다
 
 5. 가상환경을 설치하고 실행한다.
 
-    {% raw %}
+    {% highlight %}
     user> pyhon -m venv '가상환경 이름'
     user> .\venv\Scripts\activate
-    {% endraw %}
+    {% endhighlight %}
 
 6. pip를 통해 Django를 설치한다.
 
-    {% raw %}
+    {% highlight %}
     user> pip install django
-    {% endraw %}
+    {% endhighlight %}
