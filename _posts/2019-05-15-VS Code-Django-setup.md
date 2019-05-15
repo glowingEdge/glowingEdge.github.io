@@ -29,9 +29,9 @@ PyCharm이라는 편리한 IDE가 있음에도 VS Code의 가벼움이나 하다
 3. 그럼 Windows PowerShell 이 뜬다. (cmd랑은 다른 windows만의 cli인가보다 - <a href="https://m.blog.naver.com/PostView.nhn?blogId=detect1554&logNo=221145457681&proxyReferer=https%3A%2F%2Fwww.google.com%2F">Soyunviajero님 블로그 참고</a>)
 4. 아래 커맨드를 입력한다.
 
-    {% raw %}
+    {% highlight %}
     cmd> Set-ExecutionPolicy Unrestricted   
-    {% endraw %}
+    {% endhighlight %}
 
 5. 가상환경을 설치하고 실행한다.
 
@@ -45,44 +45,3 @@ PyCharm이라는 편리한 IDE가 있음에도 VS Code의 가벼움이나 하다
     {% raw %}
     user> pip install django
     {% endraw %}
-
-    {% highlight css %}
-#container {
-    float: left;
-    margin: 0 -240px 0 0;
-    width: 100%;
-}
-{% endhighlight %}
-
-{% highlight html %}
-{% raw %}
-<nav class="pagination" role="navigation">
-    {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-    {% endif %}
-    {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-    {% endif %}
-</nav><!-- /.pagination -->
-{% endraw %}
-{% endhighlight %}
-
-{% highlight ruby %}
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-{% endhighlight %}
