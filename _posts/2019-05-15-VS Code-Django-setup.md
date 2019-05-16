@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "VS Code에 Django 개발 환경 셋업하기"
-date:   2019-05-16
+date:   2019-05-15
 excerpt: "VS Code에 Django 개발 환경 셋업하기"
 tag:
 - python
@@ -29,19 +29,15 @@ PyCharm이라는 편리한 IDE가 있음에도 VS Code의 가벼움이나 하다
 3. 그럼 Windows PowerShell 이 뜬다. (cmd랑은 다른 windows만의 cli인가보다 - <a href="https://m.blog.naver.com/PostView.nhn?blogId=detect1554&logNo=221145457681&proxyReferer=https%3A%2F%2Fwww.google.com%2F">Soyunviajero님 블로그 참고</a>)
 4. 아래 커맨드를 입력한다.
 
-    {% highlight python %}
-    cmd> Set-ExecutionPolicy Unrestricted   
-    {% endhighlight %}
+    cmd> Set-ExecutionPolicy Unrestricted
+    {: .notice}  
 
 5. 가상환경을 설치하고 실행한다.
 
-    {% highlight python %}
     user> pyhon -m venv '가상환경 이름'
-    user> .\venv\Scripts\activate
-    {% endhighlight %}
+    {: .notice}
 
-6. pip를 통해 Django를 설치한다.
+6. pip를 통해 Django와 기타 필요한 라이브러리를 설치한다.
 
-    {% highlight python %}
     user> pip install django
-    {% endhighlight %}
+    {: .notice}
