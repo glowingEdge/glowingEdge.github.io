@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "190520 English Conversation"
+title:  "190520 English Study - Live Academy"
 date:   2019-05-20
 excerpt: "그렇게는 생각 안해봤는데 그것도 말 되네"
 tag:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "190517 English Conversation"
+title:  "190517 English Study - Live Academy"
 date:   2019-05-17
 excerpt: "어려운 부탁을 할 때 / 받을 때"
 tag:

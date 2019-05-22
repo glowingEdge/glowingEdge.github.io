@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "190518 English Conversation"
+title:  "190518 English Study - Live Academy"
 date:   2019-05-18
 excerpt: "뭘 먹으러갈지 정할 때"
 tag:

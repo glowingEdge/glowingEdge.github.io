@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "190516 English Conversation"
+title:  "190516 English Study - Live Academy"
 date:   2019-05-16
 excerpt: "~할거면 뭐하러 해? / ~라고 해서 ~하면 안되는거야?"
 tag:
