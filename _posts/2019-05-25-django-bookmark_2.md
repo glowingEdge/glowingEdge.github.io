@@ -132,7 +132,7 @@ urlpatterns = [
 ]
 {% endhighlight %}
 
-### HTRML 만들기
+### HTML 만들기
 
 {% highlight html %}
 {% raw %}
