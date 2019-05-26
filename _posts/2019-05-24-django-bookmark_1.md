@@ -2,7 +2,7 @@
 layout: post
 title:  "Django Bookmark Project 1"
 date:   2019-05-24
-excerpt: "인터넷 즐겨찾기 관리 서비스"
+excerpt: "환경 설정 및 모델 생성"
 tag:
 - python
 - django
@@ -65,6 +65,7 @@ comments: true
 ### 모델 생성
 
 {% highlight python %}
+// models.py
 from django.db import models
 
 
@@ -77,6 +78,7 @@ class Bookmark(models.Model):
 모델을 이용해 데이터베이스에 테이블을 생성하려면 `makemigrateions` `migrate`명령어를 사용하며, 그 전에 bookmark앱을 `setting.py`에 추가해야 한다.
 
 {% highlight python %}
+//settings.py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -98,6 +100,7 @@ INSTALLED_APPS = [
 모델을 이용해 작업할 때, 뷰를 만들어 확인하려면 시간이 걸리고, 데이터 입력이 필요하기에 관리자 페이지에서 모델을 관리하면 편하다.
 
 {% highlight python %}
+//admin.py
 from django.contrib import admin
 from .models import Bookmark
 
@@ -112,6 +115,7 @@ from django.contrib import admin
 from .models import Bookmark
 
 class Bookmark(models.Model):
+// models.py
 #...
     def __str__(self):
         # 객체를 출력할 때 나타날 값
