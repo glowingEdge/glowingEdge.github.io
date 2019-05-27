@@ -13,6 +13,7 @@ comments: true
 
 > **책 '배프의 오지랖 파이썬 웹 프로그래밍'을 공부한 내용을 정리한 글**<br>
 > **<a href="http://glowingedge.pythonanywhere.com/bookmark/">완성된 홈페이지</a>**
+>**<a href="https://github.com/glowingEdge/bookmark">완성된 소스코드</a>**
 
 ## Djnago MTV
 
@@ -20,6 +21,7 @@ Django는 MTV패턴을 사용하며, 개발도 각각의 부분을 연결하는 
 사용자가 특정 URL을 입력하면 해당 URL을 처리하는 View를 호출하고, View에서는 필요한 Model을 읽어와 정보를 처리하고, Template(HTML)을 호출하도록 한다.
 
 ## 북마크 목록 기능 구현
+
 ### 목록 View 만들기
 
 Django에는 클래스형 뷰와 함수형 뷰가 있다. 클래스형 뷰는 자주 사용하는 기능을 장고가 미리 준비해뒀으며, 이들을 상속받아 사용하면 된다.
