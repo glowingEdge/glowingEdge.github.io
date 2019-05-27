@@ -12,8 +12,8 @@ comments: true
 ---
 
 > **책 '배프의 오지랖 파이썬 웹 프로그래밍'을 공부한 내용을 정리한 글**<br>
-> **<a href="http://glowingedge.pythonanywhere.com/bookmark/">완성된 홈페이지</a>**
->**<a href="https://github.com/glowingEdge/bookmark">완성된 소스코드</a>**
+> **<a href="http://glowingedge.pythonanywhere.com/bookmark/">완성된 홈페이지</a>**<br>
+> **<a href="https://github.com/glowingEdge/bookmark">완성된 소스코드</a>**
 
 ## 배포
 

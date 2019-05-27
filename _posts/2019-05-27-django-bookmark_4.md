@@ -12,8 +12,8 @@ comments: true
 ---
 
 > **책 '배프의 오지랖 파이썬 웹 프로그래밍'을 공부한 내용을 정리한 글**<br>
-> **<a href="http://glowingedge.pythonanywhere.com/bookmark/">완성된 홈페이지</a>**
->**<a href="https://github.com/glowingEdge/bookmark">완성된 소스코드</a>**
+> **<a href="http://glowingedge.pythonanywhere.com/bookmark/">완성된 홈페이지</a>**<br>
+> **<a href="https://github.com/glowingEdge/bookmark">완성된 소스코드</a>**
 
 ## 디자인 입히기
 
@@ -23,7 +23,7 @@ comments: true
 ### base.html
 
 어느 페이지에나 공통으로 들어가는 템플릿 페이지는 다음처럼 사용한다.<br>
-{% block 'XXX' %} 와 같은 형식임에 주의하자.
+{% raw %}`{% block 'XXX' %}`{% endraw %} 와 같은 형식임에 주의하자.
 
 {% highlight html %}
 {% raw %}
@@ -44,8 +44,8 @@ comments: true
 
 ### 템플릿 확장
 
-확장할 템플릿의 사용법 또한 간단하다. {% extends 'base.html' %}로 상속을 받고,
-{% block XXX %} 과 {% endblock %} 사이에 내용을 넣어주면 된다.
+확장할 템플릿의 사용법 또한 간단하다. {% raw %}`{% extends 'base.html' %}`{% endraw %}로 상속을 받고,
+{% raw %}`{% block XXX %}`{% endraw %} 과 {% raw %}`{% endblock %}`{% endraw %} 사이에 내용을 넣어주면 된다.
 
 {% highlight html %}
 {% raw %}
@@ -68,6 +68,7 @@ comments: true
 ### 프로젝트 루트에 static 폴더 생성
 
 ### settings.py 수정
+
 {% highlight python %}
 // settings.py
 #...
