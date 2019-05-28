@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Django Bookmark Project 4"
+title:  "Django Bookmark Project 5"
 date:   2019-05-27
 excerpt: "Pythonanywhere에 배포하기"
 tag:

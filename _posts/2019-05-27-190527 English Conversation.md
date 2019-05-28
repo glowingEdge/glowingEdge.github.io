@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "190523 English Study - Live Academy"
-date:   2019-05-23
+title:  "190527 English Study - Live Academy"
+date:   2019-05-27
 excerpt: "벌써 그렇게 됐나? 몇 달 밖에 안된 것 같은데"
 tag:
 - english
