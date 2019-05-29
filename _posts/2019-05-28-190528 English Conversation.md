@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "네? 어디요? 어디를 가봤냐고요? / 그런 곳이 있다고는 들어봤어요."
+title:  "190528 English Study - Live Academy"
 date:   2019-05-28
-excerpt: "벌써 그렇게 됐나? 몇 달 밖에 안된 것 같은데"
+excerpt: "네? 어디요? 어디를 가봤냐고요? / 그런 곳이 있다고는 들어봤어요."
 tag:
 - english
 - liveacedemy
