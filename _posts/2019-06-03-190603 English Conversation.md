@@ -27,7 +27,7 @@ comments: true
 
 **B:** Nah, forget it.
 
-**A:** I bet you'd be going over right now if that was a girl.
+**A:** I bet you'd be going over there right now if that was a girl.
 
 ### 한국어
 
