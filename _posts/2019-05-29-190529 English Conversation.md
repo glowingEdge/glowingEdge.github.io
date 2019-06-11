@@ -2,7 +2,7 @@
 layout: post
 title:  "190529 English Study - Live Academy"
 date:   2019-05-29
-excerpt: "이해가 됐을지 모르겠네요." / "제가 맞게 이해한거라면,.." / "~라는건가요?"
+excerpt: "이해가 됐을지 모르겠네요. / 제가 맞게 이해한거라면,.. / ~라는건가요?"
 tag:
 - english
 - liveacedemy
