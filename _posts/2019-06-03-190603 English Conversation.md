@@ -1,5 +1,15 @@
 ---
 layout: post
+title:  "190528 English Study - Live Academy"
+date:   2019-05-28
+excerpt: "네? 어디요? 어디를 가봤냐고요? / 그런 곳이 있다고는 들어봤어요."
+tag:
+- english
+- liveacedemy
+comments: true
+---
+<!-- ---
+layout: post
 title:  "190603 English Study - Live Academy"
 date:   2019-06-03
 excerpt: "위치, 의상, 행동으로 사람 식별하기" / "~라는건가요?"
@@ -7,7 +17,7 @@ tag:
 - english
 - liveacedemy
 comments: true
----
+--- -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/AO0GXG-yT1Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

@@ -1,0 +1,13 @@
+새 ACL(액세스 제어 목록)을 통해 부여된 버킷 및 객체에 대한 퍼블릭 액세스 차단
+S3은 새로 추가된 버킷 또는 객체에 적용되는 퍼블릭 액세스 권한을 차단하며, 기존 버킷 및 객체에 대한 새 퍼블릭 액세스 ACL 생성을 금지합니다. 이 설정은 ACL을 사용하여 S3 리소스에 대한 퍼블릭 액세스를 허용하는 기존 권한을 변경하지 않습니다.
+
+임의의 ACL(액세스 제어 목록)을 통해 부여된 버킷 및 객체에 대한 퍼블릭 액세스 차단
+S3은 버킷 및 객체에 대한 퍼블릭 액세스를 부여하는 모든 ACL을 무시합니다.
+
+https://zamezzz.tistory.com/299
+
+https://lovit.github.io/aws/2019/01/30/aws_s3_iam_awscli/
+pip install awscli
+aws s3 ls  //aws s3 cd dstagram-glowingedge ;;;
+aws configure
+aws s3 sync media/ s3://dstagram-glowinedge/media --acl public-read
