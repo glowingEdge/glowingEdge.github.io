@@ -74,7 +74,7 @@ ModelForm을 이용해 회원가입에 필요한 폼을 출력하고, 회원가�
 
 settings.py에 Photo App 등록
 {% highlight python %}
-//settings.py
+# settings.py
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -88,7 +88,7 @@ INSTALLED_APPS = [
 
 사진 관리에 필요한 기본 모델을 구성한다.
 {% highlight python %}
-// photo/models.py
+# photo/models.py
 from django.db import models
 from django.contrib.auth.models import User
 
@@ -155,7 +155,7 @@ DB migration을 하려하면 이미지를 다루는 모듈이 없어 에러가 �
 모델을 이용해 작업할 때, 뷰를 만들어 확인하려면 시간이 걸리고, 데이터 입력이 필요하기에 관리자 페이지에서 모델을 관리하면 편하다.
 
 {% highlight python %}
-// photo/admin.py
+# photo/admin.py
 from django.contrib import admin
 from .models import Photo
 
@@ -178,7 +178,7 @@ search_fields: 검색기능으로 검색할 필드를 설정한다. ForeignKey �
 프로젝트가 커지면서 여러 앱에서 필요한 사진이나 파일들을 저정해야 하는데, 이를 관리하기 위한 Django 옵션을 설정한다.
 
 {% highlight python %}
-// photo/settings.py
+# photo/settings.py
 ...
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
