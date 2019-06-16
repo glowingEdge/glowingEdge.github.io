@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Django Dstagram Project 2"
-date:   2019-06-16
+title:  "Django Dstagram Project 1"
+date:   2019-06-13
 excerpt: "모델 생성 및 관리자 페이지 커스터마이징"
 tag:
 - python
@@ -173,7 +173,7 @@ list_display: 목록에 보여줄 필드. 함수를 만들어 등록하는 방�
 raw_id_fields: 연결된 모델의 객체 목록을 출력해야 하는데, 드랍다운으로 표시되기엔 너무 길 때 사용한다.(ex. 사용자가 100만명일 때 드랍다운이라면?) 드랍다운 대신 검색 팝업을 띄운다.<br>
 search_fields: 검색기능으로 검색할 필드를 설정한다. ForeignKey 필드는 사용불가.
 
-### 업로드 폴더 관리
+## 업로드 폴더 관리
 
 프로젝트가 커지면서 여러 앱에서 필요한 사진이나 파일들을 저정해야 하는데, 이를 관리하기 위한 Django 옵션을 설정한다.
 
