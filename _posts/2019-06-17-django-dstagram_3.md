@@ -176,9 +176,9 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)    
 {% endhighlight %}
 
 form태그의 enctype을 통해 서버에 어떤 인코딩으로 전달할지를 정할 수 있다. method가 post일 때만 사용 가능하다.<br><br>
-application/x-www-form-urlencoded: 기본 옵션으로, 모든 문자열을 ASCII HEX값으로 인코딩해 전달하며 띄어쓰기는 +로 변환한다.<br>
-multipart/form-data: 파일 업로드 때 사용하는 옵션으로 데이터를 문자열로 인코딩 하지않고 전달한다.<br>
-text/plain: 띄어쓰기만 +로 인코딩하여 전달한다.<br>
+**application/x-www-form-urlencoded:** 기본 옵션으로, 모든 문자열을 ASCII HEX값으로 인코딩해 전달하며 띄어쓰기는 +로 변환한다.<br>
+**multipart/form-data:** 파일 업로드 때 사용하는 옵션으로 데이터를 문자열로 인코딩 하지않고 전달한다.<br>
+**text/plain:** 띄어쓰기만 +로 인코딩하여 전달한다.<br>
 
 ### 디테일 페이지
 
