@@ -53,10 +53,10 @@ comments: true
                 {% if user.is_authenticated %}
                 <li class="nav-item"><a href="#" class="nav-link">Welcome, {{user.get_username}}</a></li>
                 <li class="nav-item"><a href="{% url 'photo:photo_upload' %}" class="nav-link">Upload</a></li>
-                <li class="nav-item"><a href="{% url 'logout' %}" class="nav-link">Logout</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Logout</a></li>
                 {% else %}
-                <li class="nav-item"><a href="{% url 'login' %}" class="nav-link">Login</a></li>
-                <li class="nav-item"><a href="{% url 'register' %}" class="nav-link">Signup</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Signup</a></li>
                 {% endif %}
             </ul>
         </nav>
@@ -101,7 +101,7 @@ TEMPLATES = [
 
 {% highlight html %}
 {% raw %}
-// templates/photo/list.html
+// photo/templates/photo/list.html
 {% extends 'base.html' %}
 
 {% block title %}
@@ -153,7 +153,7 @@ urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)    
 
 {% highlight html %}
 {% raw %}
-// templates/photo/upload.html
+// photo/templates/photo/upload.html
 {% extends 'base.html' %}
 {% block title %}
 - Upload
@@ -194,7 +194,7 @@ form태그의 enctype을 통해 서버에 어떤 인코딩으로 전달할지를
 
 {% highlight html %}
 {% raw %}
-// templates/photo/delete.html
+// photo/templates/photo/delete.html
 {% extends 'base.html' %}
 {% block title %}- Delete{% endblock %}
 
