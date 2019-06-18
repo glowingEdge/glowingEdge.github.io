@@ -2,7 +2,7 @@
 layout: post
 title:  "Django Dstagram Project 4"
 date:   2019-06-17
-excerpt: "템플릿 작성"
+excerpt: "회원 관리 구현"
 tag:
 - python
 - django
@@ -120,7 +120,7 @@ urlpatterns = [
 {% endhighlight %}
 
 로그인 후 목록페이지로 안내하기 위해 settings.py를 수정해준다.<br>
-`LOGIN_REDIRECT_ULR`의 default 값은 /profile 이다.
+`LOGIN_REDIRECT_URL`의 default 값은 /profile 이다.
 
 {% highlight python %}
 # config/settings.py
@@ -152,7 +152,7 @@ class RegisterForm(forms.ModelForm):
         return cd['password2']
 {% endhighlight %}
 
-forms.ModelForm을 이용해 User 모델의 자료를 입력받도록 하며, password의 경우 widget 옵션으로 사용자가 입력시 '*****'형태로 보이도록 한다.<br>
+forms.ModelForm을 이용해 User 모델의 자료를 입력받도록 하며, password의 경우 widget 옵션으로 사용자가 입력시 `*****`형태로 보이도록 한다.<br>
 form에 전달된 데이터의 유효성을 검사하는 각 필드의 clean_ 메서드들이 수행되고 나면, 사용자가 정의한 clean_password2(self) 메서드가 호출된다.<br>
 cd[]로 전달된 값은 View에서 Form.IsValid() 이후 cleaned_data['field']의 형태로 사용 가능하다.<br>
 <br>
